@@ -12,20 +12,23 @@ margin: auto;
 border: 1px solid black;
 height: 320px;
 overflow: hidden;
+box-shadow: 5px 5px 15px  10px rgba(128, 128, 128, 1);
+margin-top: 100px;
 }
 .accord li{
   width: 160px;
   display: block;
   position: relative;
-  float: left;
+  float:left;
   border-left: 1px solid #ddd;
   transition: all 0.5s;
+  box-shadow: -5px 10px 13px  15px rgba(128, 128, 128, 0.774);
 }
 .title{
   background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
   left: 0;
-  bottom:0px;
+  top:280px;
   width: 640px;
 
 
@@ -34,7 +37,7 @@ overflow: hidden;
   display: block;
   color: white;
   padding: 20PX;
-  font-size: 16PX;
+  font-size: 20PX;
 
   text-decoration: none;
 
