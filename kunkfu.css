@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 810px;
+  height: 320px;
+  border: 1px solid black;
+  overflow: hidden;
+  margin: auto ;
+ 
+
+}
+
+.container li {
+  position: relative;
+  width: 160px;
+  display: block;
+  border: 1px solid white;
+  float: left;
+  transition: all 1s;
+  
+}
+.title{
+  position: absolute;
+  left: 0;
+  top: 300px;
+  width: 640px;
+  
+}
+.title a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 20px;
+ 
+
+
+ }
+  ul:hover li {
+   width: 40px;  
+ 
+}  
+ ul li:hover{
+  width: 640px;
+}

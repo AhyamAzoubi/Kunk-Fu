@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+  background-color: #ddd;
+}
+.accord {
+width: 805px;
+margin: auto;
+border: 1px solid black;
+height: 320px;
+overflow: hidden;
+}
+.accord li{
+  width: 160px;
+  display: block;
+  position: relative;
+  float: left;
+  border-left: 1px solid #ddd;
+  transition: all 0.5s;
+}
+.title{
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 0;
+  bottom:0px;
+  width: 640px;
+
+
+}
+.title a {
+  display: block;
+  color: white;
+  padding: 20PX;
+  font-size: 16PX;
+
+  text-decoration: none;
+
+}
+.accord ul:hover li{
+  width: 40px;
+}
+.accord ul li:hover {
+  width: 640px;
+}
